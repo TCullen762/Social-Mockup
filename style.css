@@ -1,3 +1,43 @@
 body{
     background: white;
 }
+
+/* need to find hex color for background and text color*/
+ #header { 
+     background-color: red;
+
+ }
+/* find color for text */
+ h1{
+
+ }
+ h2{
+
+ }
+ /*sort out size add black border solid 1px*/
+ #profile_pic{
+
+    background-color: blue;
+    color: blanchedalmond;
+    /* border: black solid 1px;
+    z-index: figure this out; 
+    sort our position */
+ }
+
+/*this is the like button figure our the image and hover*/
+ button{
+     background-color: burlywood;
+
+ }
+
+ /* style this like a navbar with some kind of hover and dropdown at the end*/
+#buttons{
+    background-color: chartreuse;
+
+}
+/* need to add hoverstate that underlines and boldens text with dropdown at the end*/
+  #navBar{
+      border: black solid 1 px;
+
+  }
+
