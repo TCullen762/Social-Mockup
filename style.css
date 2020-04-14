@@ -1,30 +1,57 @@
-body{
-    background: white;
+*{
+    box-sizing: border-box;
 }
-
+ body{
+     background-color: tomato;
+ }
 /* need to find hex color for background and text color*/
  #header { 
-     background-color: red;
+     position: relative;
+     height: 400px;
+     width: 80%;
+     margin: 0 auto;
+    background-color: #4267b2;
 
  }
-/* find color for text */
- h1{
-
- }
- h2{
-
- }
- /*sort out size add black border solid 1px*/
+   
  #profile_pic{
-
-    background-color: blue;
-    color: blanchedalmond;
-    /* border: black solid 1px;
-    z-index: figure this out; 
-    sort our position */
+     position: relative;
+     height: 200px;
+     width: 200px;
+     top:225px;
+     left:10px;
+     z-index: 10;
+     border: black solid 1px;
+     background-color: #4267b2;
  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*h1{
+       font-family: Arial, Helvetica, sans-serif;
+       color: whitesmoke;
+       font-size: 24px;
+       width: 200px;
+       
+       background-color: tomato;
+   }
+    
+   h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 14px;
+    background-color: tomato;
+    border: white solid 1px;
+}
 
-/*this is the like button figure our the image and hover*/
+
+
+/*this is the like button figure our the image and hover also add cursor = pointer */
  button{
      background-color: burlywood;
 
@@ -36,8 +63,40 @@ body{
 
 }
 /* need to add hoverstate that underlines and boldens text with dropdown at the end*/
-  #navBar{
-      border: black solid 1 px;
+#navBar{
+      position:relative;
+      top: 200px;
+      height: 50px;
+      width: 1100px;
+      padding: 11px;
+      background-color: white;
+      margin: 0 auto;
+}
 
-  }
+ul{
 
+    height:20px ;
+    width: 450px;
+    margin: 0 auto;
+    padding: 0%;
+}
+li{
+    display: inline-block;
+    float: left;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    height: 35px;
+    width: 60px;
+    padding: 12px;
+    border-left:black solid 1px;
+    
+}
+
+ 
