@@ -249,26 +249,120 @@ img{
     .content_box1{
         position: absolute;
         width: 328px;
-        height: 200px;
+        height: 167px;
         padding:0;
-        background-color: gray;
+        border:gray solid 1px; 
+        background-color: white;
+    }
+        
+       
         
 
-    }
+    
     .about_page_name{
         position: absolute;
-        width: 328px;
-        height: 100px;
-        top:40px;
+        width: 325px;
+        height: 95px;
+        top:33px;
         padding: 3px;
-        border: seagreen solid 2px;
+        border-top:gray solid 1px; 
+        border-bottom: gray solid 1px;
+        background-color: white;
         
-        background-color: seashell;
     }
  .about_page_name h2{
+     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    font-size: 18px;
-    top:-45px ;
-    left: 75px;
+    color:#414042 ;
+    font-size: 20px;
+    top:-15px ;
+    left: 12px;
+    
+}
+p{
+    position: absolute;
+    width: 300px;
+    top:12px;
+    margin-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:royalblue;
+    font-size: 14px;
+}
+
+.h2_bottom{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color:royalblue;
+    font-size: 14px;
+    font-weight: bolder;
+    top:127px ;
+    left: 20px;
+}
+
+.content_box2{
+    position: absolute;
+        width: 328px;
+        height: 167px;
+        top: 180px;
+        padding:0;
+        border:gray solid 1px; 
+        
+
+}
+
+.about{
+
+    position: absolute;
+    top: 0px;
+    left:8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+    z-index: 1;
+
+}
+
+.your_address{
+    position: absolute;
+        width: 325px;
+        height: 95px;
+        top:33px;
+        padding: 3px;
+        border-top:gray solid 1px; 
+        border-bottom: gray solid 1px;
+        background-color: white;
+
+}
+
+.your_address p {
+    position: absolute;
+    top: 25px;
+    left:11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414042;
+    font-size: 14px;
+    padding:10px;
+    
+}
+
+.your_address h4{
+    position: absolute;
+    top: 5px;
+    left:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414042;
+    font-size: 14px;
+    padding:10px;
+   
+    z-index: 2;
+}
+.phone_number{
+    position: absolute;
+    top: 75px;
+    left:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414042;
+    font-size: 14px;
+    padding:10px;
+ 
 }
