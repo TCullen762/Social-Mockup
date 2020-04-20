@@ -6,21 +6,21 @@
  }
 /* need to find hex color for background and text color*/
  #header { 
-     position: relative;
-     height: 400px;
-     width: 80%;
+     position: absolute;
+     height: 500px;
+     width: 80%; /*requirements are 850px, but is very slim, confrim before submission- using 80% as per the demo*/
      margin: 0 auto;
     background-color: #4267b2;
-
+    z-index: -1;
  }
    
  #profile_pic{
-     position: relative;
-     height: 200px;
-     width: 200px;
-     top:225px;
-     left:10px;
-     z-index: 10;
+     position: absolute;
+     height: 225px;
+     width:  225px;
+     top:250px;
+     left:15px;
+     z-index: 120;
      border: black solid 1px;
      background-color: #4267b2;
  }
@@ -32,71 +32,178 @@
  
  
  
- /*h1{
+ h1{
+        position: absolute;
        font-family: Arial, Helvetica, sans-serif;
        color: whitesmoke;
-       font-size: 24px;
-       width: 200px;
+       font-size: 32px;
+       width: 300px;
+       top:320px;
+       left:300px;
+
        
-       background-color: tomato;
    }
     
    h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-    font-size: 14px;
-    background-color: tomato;
-    border: white solid 1px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        color: whitesmoke;
+        font-size: 24px;
+        width: 300px;
+         top:380px;
+         left:300px;
+   
+       
 }
 
 
 
-/*this is the like button figure our the image and hover also add cursor = pointer */
- button{
-     background-color: burlywood;
+/*this is the like button figure our the image and hover also add cursor = pointer 
 
- }
 
- /* style this like a navbar with some kind of hover and dropdown at the end*/
-#buttons{
-    background-color: chartreuse;
+ /* style this like a navbar with some kind of hover and dropdown at the end
+need to add hoverstate that underlines and boldens text with dropdown at the end*/
 
-}
-/* need to add hoverstate that underlines and boldens text with dropdown at the end*/
+
+
+     
+
 #navBar{
-      position:relative;
-      top: 200px;
-      height: 50px;
-      width: 1100px;
+      position: absolute;
+      top: 450px;
+      height: 55px;
+      width: 1110px;
       padding: 11px;
       background-color: white;
+      border: white solid 3px;
       margin: 0 auto;
+      z-index: -1;
 }
 
 ul{
-
+    position: absolute;
+    left: 240px;
     height:20px ;
-    width: 450px;
+    width: 550px;
     margin: 0 auto;
+   
     padding: 0%;
+    
 }
-li{
-    display: inline-block;
-    float: left;
-    padding: 2px;
+li  {
+    display: inline;
+    position: relative;
+    list-style-type: none;
+    padding: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-}
-
-
-
-a {
-    text-decoration: none;
+    
+    
+    
     height: 35px;
     width: 60px;
     padding: 12px;
-    border-left:black solid 1px;
     
 }
 
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#414042
+}
+
+
+.button_bar {
+   
+   position: absolute;
+    top: 380px;
+    left:700px;
+    width: 350px;
+    display: inline-block;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+   
+    
+}
+
+
+.button {
+    text-decoration: none;
+   
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#414042
+    font-size: 20px;
+    float: left;
+}
+
+.like_button{
+    text-decoration: none;
+    color:#414042
+    padding: 2px 5px 5px 5px;
+    width: 100px ;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.follow_button{
+    text-decoration: none;
+    color:#414042
+    width: 110px ;
+    height: 40px;
+    padding: 2px 7px 9px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin:0;
+
+}
+.message_button{
+    width: 110px ;
+    height: 40px;
+    text-decoration: none;
+    color:#414042
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+    font-size: 20px;
+    float: left;
+    margin:0;
+
+}
+
+.dot_button{
+    position: absolute;
+    width: 70px ;
+    height: 40px;
+    text-decoration: none;
+    color:#414042
+    padding: 1px 5px 8px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    float: right;
+    margin:0;
+}
+
+img{
+    margin-right: 3px;
+}
+/*#msg {
+    position: absolute;
+   
+    margin-right: 15px;
  
+  background-color: chartreuse;
+}*/
+
