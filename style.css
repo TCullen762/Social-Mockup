@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
  body{
-     background-color: tomato;
+     background-color: whitesmoke;
  }
 /* need to find hex color for background and text color*/
  #header { 
      position: absolute;
      height: 500px;
      width: 80%; /*requirements are 850px, but is very slim, confrim before submission- using 80% as per the demo*/
-     margin: 0 auto;
+     margin-left:  150px;
     background-color: #4267b2;
     z-index: -1;
  }
@@ -72,7 +72,7 @@ need to add hoverstate that underlines and boldens text with dropdown at the end
       position: absolute;
       top: 450px;
       height: 55px;
-      width: 1110px;
+      width: 1111px;
       padding: 11px;
       background-color: white;
       border: white solid 3px;
@@ -105,7 +105,15 @@ li  {
     padding: 12px;
     
 }
+#time{
+    list-style-type: none;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: #414042 solid 3px;
 
+}
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -117,7 +125,7 @@ a{
    
    position: absolute;
     top: 380px;
-    left:700px;
+    left:880px;
     width: 350px;
     display: inline-block;
     padding: 0;
@@ -130,13 +138,13 @@ a{
 
 
 .button {
-    text-decoration: none;
    
+    text-decoration: none;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color:#414042
     font-size: 20px;
-    float: left;
+    float:left;
 }
 
 .like_button{
